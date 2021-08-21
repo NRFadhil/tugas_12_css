@@ -1,0 +1,39 @@
+body {
+  background-image: radial-gradient(circle at top right , white, #87CEEB);
+
+}
+header {
+  background-color: black;
+}
+ul,li,a {
+  display: inline-block;
+  color: white;
+  word-spacing: 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.slider-img {
+  width: 1500px;
+  height: 700px;
+padding-top: 10px;
+}
+.image {
+  float: left;
+  width: 270px;
+  height: 250px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+p {
+  column-width: 200px;
+  column-fill: balance;
+  column-rule: 2px solid black;
+  column-count: 4;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
